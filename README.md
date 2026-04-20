@@ -1,0 +1,1 @@
+# Gowin_FPGA_GW2A_Tang_Primer_Basics
