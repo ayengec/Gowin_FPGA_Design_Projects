@@ -1,4 +1,4 @@
-# Tang Primer 20K LED Chaser Smoke Test
+# Tang Primer 20K LED Chaser and UART on macOS Smoke Test
 
 This is a minimal project to verify:
 - Gowin IDE project opens,
