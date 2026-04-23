@@ -17,3 +17,7 @@ IO_LOC  "led[2]"    N14;
 IO_PORT "led[2]"    IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
 IO_LOC  "led[3]"    N16;
 IO_PORT "led[3]"    IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+
+// UART TX (to USB-UART RX / onboard bridge)
+IO_LOC  "uart_tx"   M11;
+IO_PORT "uart_tx"   IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
