@@ -1,0 +1,19 @@
+// Project   : Tang Primer 20K LED Chaser Smoke Test
+// File      : led_chaser_smoke_test.cst
+// Summary   : Minimum pin constraints for build/program smoke test.
+// Designer  : Alican Yengec
+// Updated   : 2026-04-24
+
+// 27 MHz board oscillator
+IO_LOC  "clk_27m"   H11;
+IO_PORT "clk_27m"   IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// User LEDs
+IO_LOC  "led[0]"    L16;
+IO_PORT "led[0]"    IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+IO_LOC  "led[1]"    L14;
+IO_PORT "led[1]"    IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+IO_LOC  "led[2]"    N14;
+IO_PORT "led[2]"    IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+IO_LOC  "led[3]"    N16;
+IO_PORT "led[3]"    IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
