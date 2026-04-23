@@ -73,6 +73,9 @@ Hello, ayengec UART test from macOS with knight rider project: 000003 seconds
 
 ![macOS Gowin + CoolTerm success](assets/macos_gowin_coolterm_success_2026-04-24.png)
 
+## Video of Knight Rider LEDs on the Board
+[![Watch the demo](https://img.youtube.com/vi/-smQ1xjZT98/maxresdefault.jpg)](https://youtube.com/shorts/-smQ1xjZT98?feature=share)
+
 ## If UART Does Not Appear
 1. Re-check `Project -> Settings -> Synthesize -> Language = SystemVerilog`.
 2. Re-generate bitstream and re-program FPGA.
