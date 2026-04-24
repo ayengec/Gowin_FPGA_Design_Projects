@@ -11,23 +11,25 @@ Many of the project READMEs also include YouTube video links for the demos and b
 
 ## What’s inside
 
-- DDR3 + UART test projects with a menu-driven interface
-- HDMI video output and color bar demonstration designs
-- FPGA design flows that work on macOS
-- Example RTL and board constraints for real Gowin hardware
+* DDR3 + UART test projects with a menu-driven interface
+* HDMI video output and color bar demonstration designs
+* WS2812 RGB LED control with push-button interaction
+* FPGA design flows that work on macOS
+* Example RTL and board constraints for real Gowin hardware
 
-## Featured demo videos
+## Featured Project Videos
 
 Watch the live hardware demos directly on YouTube:
 
-| HDMI Pattern Demo | macOS FPGA LED Chaser |
-| --- | --- |
-| [![Watch the demo](https://img.youtube.com/vi/nfMQvRwTM1Y/maxresdefault.jpg)](https://youtu.be/nfMQvRwTM1Y) | [![Watch the demo](https://img.youtube.com/vi/-smQ1xjZT98/maxresdefault.jpg)](https://youtube.com/shorts/-smQ1xjZT98?feature=share) |
-| **Tang Primer HDMI output bring-up** | **macOS + FPGA LED chaser workflow** |
+| Demo | Project | Description |
+| --- | --- | --- |
+| [![HDMI Pattern Demo](https://img.youtube.com/vi/nfMQvRwTM1Y/hqdefault.jpg)](https://youtu.be/nfMQvRwTM1Y) | [hdmi_ayengec_demo](./hdmi_ayengec_demo) | Tang Primer HDMI output bring-up |
+| [![macOS FPGA LED Chaser](https://img.youtube.com/vi/-smQ1xjZT98/hqdefault.jpg)](https://youtube.com/shorts/-smQ1xjZT98?feature=share) | [macos_led_knight_rider](./macos_led_knight_rider) | macOS + FPGA LED chaser workflow |
+| [![WS2812 RGB LED Button Control](./macos_rgb_led_w_button_ws2812/media/youtube_short_thumbnail.jpg)](https://youtube.com/shorts/T-TFq8TVYHs?feature=share) | [macos_rgb_led_w_button_ws2812](./macos_rgb_led_w_button_ws2812) | WS2812 RGB LED color and brightness control with buttons |
 
 ## Why this repository exists
 
-The purpose of this repo is to show that FPGA design is not limited to Windows-only environments. As a designer, I want to prove that macOS users can also develop, simulate, and build Gowin FPGA projects with confidence.
+The purpose of this repo is to show that FPGA design is not limited to Windows-only environments. As a designer, I want to prove that macOS users can also develop and build Gowin FPGA projects with confidence.
 
 ## What’s coming next
 
