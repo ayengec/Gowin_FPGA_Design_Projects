@@ -10,12 +10,12 @@ The image below shows Gowin FPGA Designer / Programmer running natively on macOS
 
 ![Gowin IDE on macOS](media/macos_gowin_ide.png)
 
-## Demo Video
+## Video
 This short clip shows the project behavior on hardware (WS2812 color changes with button control).
 
-[![YouTube Shorts demo thumbnail](media/youtube_short_thumbnail.jpg)](https://youtube.com/shorts/T-TFq8TVYHs?feature=share)
+[![YouTube Shorts thumbnail](media/youtube_short_thumbnail.jpg)](https://youtube.com/shorts/T-TFq8TVYHs?feature=share)
 
-## What This Demo Does
+## What This Project Does
 - Drives one WS2812 RGB LED on pin `T9`.
 - Uses 4 buttons to control color and brightness in real time.
 - Uses pure RTL (no IP) for button handling and WS2812 protocol timing.
