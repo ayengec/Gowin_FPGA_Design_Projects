@@ -24,7 +24,7 @@ Watch the live hardware demos directly on YouTube:
 | Demo | Project | Description |
 | --- | --- | --- |
 | [![HDMI Pattern Demo](https://img.youtube.com/vi/nfMQvRwTM1Y/hqdefault.jpg)](https://youtu.be/nfMQvRwTM1Y) | [hdmi_ayengec_demo](./hdmi_ayengec_demo) | Tang Primer HDMI output bring-up |
-| [![macOS FPGA LED Chaser](https://img.youtube.com/vi/-smQ1xjZT98/hqdefault.jpg)](https://youtube.com/shorts/-smQ1xjZT98?feature=share) | [macos_led_knight_rider](./macos_led_knight_rider) | macOS + FPGA LED chaser workflow |
+| [![macOS FPGA LED Chaser](https://img.youtube.com/vi/-smQ1xjZT98/hqdefault.jpg)](https://youtube.com/shorts/-smQ1xjZT98?feature=share) | [macos_led_knight_rider](./macos_led_knight_rider) | LED Knight Rider |
 | [![WS2812 RGB LED Button Control](./macos_rgb_led_w_button_ws2812/media/youtube_short_thumbnail.jpg)](https://youtube.com/shorts/T-TFq8TVYHs?feature=share) | [macos_rgb_led_w_button_ws2812](./macos_rgb_led_w_button_ws2812) | WS2812 RGB LED color and brightness control with buttons |
 
 ## Why this repository exists
