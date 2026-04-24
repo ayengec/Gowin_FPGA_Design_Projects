@@ -1,4 +1,4 @@
-# Tang Primer 20K HDMI Pattern Demo (Phase-1)
+# Tang Primer 20K HDMI Pattern Demo
 
 ## Header
 - Designer: Alican Yengec
