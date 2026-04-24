@@ -1,0 +1,53 @@
+// Project   : macOS RGB LED With Button WS2812
+// File      : macos_rgb_led_w_button_ws2812.cst
+// Summary   : Pin constraints for top_ws2812_button_color.
+// Designer  : Alican Yengec
+// Updated   : 2026-04-24
+
+// -----------------------------------------------------------------------------
+// Core clock
+// -----------------------------------------------------------------------------
+IO_LOC  "clk_27m"      H11;
+IO_PORT "clk_27m"      IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// -----------------------------------------------------------------------------
+// User buttons (active-low)
+// -----------------------------------------------------------------------------
+IO_LOC  "btn_next_n"   T3;
+IO_PORT "btn_next_n"   IO_TYPE=LVCMOS15 PULL_MODE=UP;
+
+IO_LOC  "btn_prev_n"   T2;
+IO_PORT "btn_prev_n"   IO_TYPE=LVCMOS15 PULL_MODE=UP;
+
+IO_LOC  "btn_bright_n" D7;
+IO_PORT "btn_bright_n" IO_TYPE=LVCMOS15 PULL_MODE=UP;
+
+IO_LOC  "btn_auto_n"   C7;
+IO_PORT "btn_auto_n"   IO_TYPE=LVCMOS15 PULL_MODE=UP;
+
+// -----------------------------------------------------------------------------
+// Onboard WS2812 data pin
+// -----------------------------------------------------------------------------
+// NOTE:
+// T9 is a dual-purpose (SSPI) pin on this device/package.
+// In Gowin IDE, enable:
+//   Project -> Configuration -> Place & Route -> Dual-Purpose Pin
+//   [x] Use SSPI as regular IO
+// Otherwise PnR raises PR2017/PR2028 on ws2812_dout.
+IO_LOC  "ws2812_dout"  T9;
+IO_PORT "ws2812_dout"  IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+
+// -----------------------------------------------------------------------------
+// User LEDs
+// -----------------------------------------------------------------------------
+IO_LOC  "led[0]"       L16;
+IO_PORT "led[0]"       IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+
+IO_LOC  "led[1]"       L14;
+IO_PORT "led[1]"       IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+
+IO_LOC  "led[2]"       N14;
+IO_PORT "led[2]"       IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+
+IO_LOC  "led[3]"       N16;
+IO_PORT "led[3]"       IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
