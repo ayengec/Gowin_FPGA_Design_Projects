@@ -16,6 +16,15 @@ Many of the project READMEs also include YouTube video links for the demos and b
 - FPGA design flows that work on macOS
 - Example RTL and board constraints for real Gowin hardware
 
+## Featured demo videos
+
+Watch the live hardware demos directly on YouTube:
+
+| HDMI Pattern Demo | macOS FPGA LED Chaser |
+| --- | --- |
+| [![Watch the demo](https://img.youtube.com/vi/nfMQvRwTM1Y/maxresdefault.jpg)](https://youtu.be/nfMQvRwTM1Y) | [![Watch the demo](https://img.youtube.com/vi/-smQ1xjZT98/maxresdefault.jpg)](https://youtube.com/shorts/-smQ1xjZT98?feature=share) |
+| **Tang Primer HDMI output bring-up** | **macOS + FPGA LED chaser workflow** |
+
 ## Why this repository exists
 
 The purpose of this repo is to show that FPGA design is not limited to Windows-only environments. As a designer, I want to prove that macOS users can also develop, simulate, and build Gowin FPGA projects with confidence.
