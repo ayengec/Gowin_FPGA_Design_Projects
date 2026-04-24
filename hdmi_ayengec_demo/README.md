@@ -1,6 +1,5 @@
 # Tang Primer 20K HDMI Pattern Demo
 
-## Header
 - Designer: Alican Yengec
 - Summary: Custom HDMI bring-up demo written in SystemVerilog (for user logic), with clear and editable structure.
 
@@ -12,6 +11,9 @@ Main purpose:
 - verify clocks and video timing
 - show a custom animated pattern (not stock color bars)
 - keep code readable for future DDR3/SD-card video upgrades
+
+## Video on Monitor over HDMI
+[![Watch the demo](https://img.youtube.com/vi/nfMQvRwTM1Y/maxresdefault.jpg)](https://youtu.be/nfMQvRwTM1Y)
 
 ## Why This Architecture
 This design is intentionally split into small blocks:
