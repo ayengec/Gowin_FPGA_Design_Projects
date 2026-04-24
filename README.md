@@ -3,7 +3,11 @@ Designed and developed by Alican Yengec
 
 This repository contains FPGA design work for the Gowin G2WA model on the Sipeed Tang Primer development board.
 
-And this collection focuses on practical FPGA experiments and demos built with macOS-friendly workflows while also supporting Windows and Linux toolchains.
+![Gowin board photo](hdmi_ayengec_demo/media/photo_of_gowin_board.PNG)
+
+Designed and developed by Alican Yengec, this collection focuses on practical FPGA experiments and demos built with macOS-friendly workflows while also supporting Windows and Linux toolchains.
+
+Many of the project READMEs also include YouTube video links for the demos and build examples.
 
 ## What’s inside
 
