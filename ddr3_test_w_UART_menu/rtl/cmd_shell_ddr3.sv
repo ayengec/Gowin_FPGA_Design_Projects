@@ -4,7 +4,7 @@
  * Summary   : UART command shell that parses user commands and prints reports.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Notes:
  * - Input is case-insensitive for command keywords.

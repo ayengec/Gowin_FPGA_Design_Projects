@@ -4,7 +4,7 @@
  * Summary   : Real DDR3 backend using Gowin DDR3 IP with safe clock crossing.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Why this version:
  * - UART/test engine runs on 27 MHz clock.

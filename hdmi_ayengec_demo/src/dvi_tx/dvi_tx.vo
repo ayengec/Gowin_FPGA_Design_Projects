@@ -2,7 +2,7 @@
 //All rights reserved.
 //File Title: Post-PnR Simulation Model file
 //GOWIN Version: V1.9.7.02Beta
-//Created Time: Thu Feb 25 15:36:13 2021
+//Created Time: Thu Feb 25 15:36:13 2026
 
 module DVI_TX_Top(
 	I_rst_n,

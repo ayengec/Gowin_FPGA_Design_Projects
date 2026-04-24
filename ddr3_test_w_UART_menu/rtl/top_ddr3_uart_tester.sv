@@ -4,7 +4,7 @@
  * Summary   : Top-level integration for UART shell + real DDR3 test backend.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Integration strategy:
  * - Keep UART/control plane fully operational from day one.

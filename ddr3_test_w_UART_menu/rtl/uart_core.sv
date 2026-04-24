@@ -4,7 +4,7 @@
  * Summary   : Simple wrapper that combines UART RX and UART TX.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Why a wrapper?
  * - Keeps the top-level clean.

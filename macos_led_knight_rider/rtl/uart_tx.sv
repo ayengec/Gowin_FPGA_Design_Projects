@@ -4,7 +4,7 @@
  * Summary   : Compact UART transmitter (8N1) with start-strobe interface.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-24
+ * Updated
  */
 module uart_tx #(
     parameter int CLK_HZ   = 27_000_000,

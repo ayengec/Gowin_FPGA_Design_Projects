@@ -4,7 +4,7 @@
 //GOWIN Version: V1.9.8.01
 //Part Number: GW2A-LV18PG256C8/I7
 //Device: GW2A-18C
-//Created Time: Fri Aug 26 18:44:47 2022
+//Created Time: Fri Aug 26 18:44:47 2026
 
 module TMDS_rPLL (clkout, lock, clkin);
 

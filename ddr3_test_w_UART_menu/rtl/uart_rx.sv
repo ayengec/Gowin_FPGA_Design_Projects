@@ -4,7 +4,7 @@
  * Summary   : UART receiver (8N1), emits one-cycle valid pulse per byte.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Implementation style:
  * - No oversampling; we sample once per bit at expected bit center.

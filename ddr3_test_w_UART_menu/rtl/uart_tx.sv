@@ -4,7 +4,7 @@
  * Summary   : UART transmitter (8N1), one byte per start pulse.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Frame format (8N1):
  * - 1 start bit (0)

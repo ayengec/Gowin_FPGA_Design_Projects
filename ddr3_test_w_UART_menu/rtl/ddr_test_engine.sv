@@ -4,7 +4,7 @@
  * Summary   : Core test engine for single/block/bank DDR memory checks.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-23
+ * Updated
  *
  * Notes:
  * - This engine is backend-agnostic and talks through a tiny req/rsp bus.

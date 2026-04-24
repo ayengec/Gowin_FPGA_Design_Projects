@@ -4,7 +4,7 @@
  * Summary   : Knight-rider LEDs + UART heartbeat sentence with seconds counter.
  * Designer  : Alican Yengec
  * Language  : SystemVerilog
- * Updated   : 2026-04-24
+ * Updated
  *
  * UART sentence format (once per second):
  *   Hello, ayengec UART test from macOS with knight rider project: XXXXXX seconds\r\n
