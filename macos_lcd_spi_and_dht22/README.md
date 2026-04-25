@@ -63,9 +63,13 @@ macos_tft18_spi_dht22/
 - `constraints/macos_tft18_spi_dht22.cst`: Pin mapping and IO electrical settings.
 - `constraints/macos_tft18_spi_dht22.sdc`: Base clock constraint.
 
+## Bring-up Notes
+
+During bring-up, the most common issues were TFT backlight polarity, ST77xx orientation/offset settings, and DHT22 DATA pull-up stability. The current version uses a 4.7k external pull-up on the DHT22 line and keeps the sensor sampling interval around 2 seconds for stable readings.
+
 ## Why FPGA Instead of MCU Here?
 Yes, this could also be done on a small MCU.
-We intentionally built it on FPGA to practice:
+I intentionally built it on FPGA to practice:
 - Native macOS Gowin flow (synthesis + PnR + programming).
 - Writing protocol controllers in SystemVerilog.
 - Designing timing/state-machine based interfaces for real hardware.
