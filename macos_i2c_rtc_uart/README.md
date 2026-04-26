@@ -4,7 +4,7 @@ Designer: **Alican Yengec**
 
  **Tang Primer 20K Board - Gowin GW2A-18C FPGA I2C RTC and UART Project**:
 - DS3231 on **I2C**
-- interactive menu on **UART** (CoolTerm / Tera Term)
+- interactive menu on **UART** (CoolTerm)
 
 ## What this project does
 
