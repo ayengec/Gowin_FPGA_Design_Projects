@@ -1,0 +1,49 @@
+// Project   : macos_i2c_rtc_uart
+// File      : macos_i2c_rtc_uart.cst
+// Summary   : Tang Primer 20K pin constraints for DS3231 I2C + UART terminal.
+// Designer  : Alican Yengec
+// Updated   : 2026-04-26
+
+// -----------------------------------------------------------------------------
+// System clock and reset
+// -----------------------------------------------------------------------------
+IO_LOC  "clk_27m"      H11;
+IO_PORT "clk_27m"      IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// Keep reset away from dedicated SSPI pins.
+IO_LOC  "rst_n"        T10;
+IO_PORT "rst_n"        IO_TYPE=LVCMOS15 PULL_MODE=UP;
+
+// -----------------------------------------------------------------------------
+// UART to onboard USB-UART bridge
+// -----------------------------------------------------------------------------
+IO_LOC  "uart_tx"      M11;
+IO_PORT "uart_tx"      IO_TYPE=LVCMOS33 DRIVE=8;
+
+IO_LOC  "uart_rx"      T13;
+IO_PORT "uart_rx"      IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// -----------------------------------------------------------------------------
+// I2C bus (DS3231)
+// IMPORTANT: I2C is open-drain. Use external pull-ups to 3V3 (typically 4.7k).
+// -----------------------------------------------------------------------------
+IO_LOC  "i2c_scl"      A11;
+IO_PORT "i2c_scl"      IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC  "i2c_sda"      B11;
+IO_PORT "i2c_sda"      IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+// -----------------------------------------------------------------------------
+// Debug LEDs
+// -----------------------------------------------------------------------------
+IO_LOC  "led[0]"       L16;
+IO_PORT "led[0]"       IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC  "led[1]"       L14;
+IO_PORT "led[1]"       IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC  "led[2]"       N14;
+IO_PORT "led[2]"       IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC  "led[3]"       N16;
+IO_PORT "led[3]"       IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;

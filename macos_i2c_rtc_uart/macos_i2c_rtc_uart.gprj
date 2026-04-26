@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="rtl/uart_tx.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/uart_rx.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/i2c_byte_master.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/top_i2c_rtc_uart.sv" type="file.verilog" enable="1"/>
+        <File path="constraints/macos_i2c_rtc_uart.cst" type="file.cst" enable="1"/>
+        <File path="constraints/macos_i2c_rtc_uart.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
